@@ -1,0 +1,79 @@
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px 0px 0px 0px;
+    background-color: azure;
+  }
+  
+  .username{
+    width: 100%;
+    padding-left: 30%;
+  }
+  
+  .profile img {
+    border-radius: 100px;
+    width: 150px;
+  }
+  
+  .profile img {
+    margin-top: 50px;
+  }
+  
+  .profile h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  .profile h1 span {
+    text-align: center;
+    width: 70%;
+    font-size: 40px;
+    font-weight: 600;
+    color: gray;
+  }
+  
+  .profile p {
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .profileAction {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .profileConnect {
+    padding: 10px 20px;
+    background-color: gray;
+    border-radius: 100px;
+    color: white;
+    border: solid 2px;
+  }
+  
+  .profileConnect:hover {
+    transition: 0.5s;
+    transform: scale(1.03);
+  }
+  
+  .ProfileResume {
+    padding: 9px 25px;
+    border: 1px solid;
+    border-radius: 100px;
+    border-color: oldlace
+  }
+  
+  .profileResume:hover {
+    transition: 0.5s;
+    transform: scale(1.03);
+    border-color: gray;
+  }
+  
