@@ -1,0 +1,70 @@
+.nav {
+  display: flex;
+  align-items: last baseline;
+  justify-content: space-around;
+  margin: 0px 0px;
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+
+  &:hover{
+     color:rgb(129, 40, 40);
+  }
+}
+
+
+.navMenu {
+  display: flex;
+  align-items: left;
+  list-style: none;
+  gap: 40px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+
+.nav h1 {
+  font-weight: 50;
+  color: darkgoldenrod;
+  text-align: center;
+  
+}
+
+li {
+  transition: 0.4s;
+  text-align: center;
+}
+
+li:hover {
+  transform: scale(1.1);
+  text-align: center;
+}
+
+.navConnect {
+ 
+  background-color: blue;
+  color: red;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.navConnect:hover {
+  transform: scale(1.03);
+}
+ul{
+  text-align: center;
+  
+}
+.navbar{
+  
+  background-color: aqua;
+  
+}
