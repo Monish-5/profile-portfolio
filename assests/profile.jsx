@@ -1,8 +1,8 @@
 import React from 'react'
 import ProfileCSS from './Profile.module.css';
-import img1 from '../image/download.jpg';
+import Profile from '../image/Monish (1).jpg';
 
-function Profile(){
+function Profil(){
    
   return (
     <div className={ProfileCSS.profile}>
@@ -11,6 +11,7 @@ function Profile(){
        <h3> I am a fullstack developer with a proven ability to collaborate effectively with Junior developers.</h3>
        <h5>I am monish I Study Beachelor of Engeringing in electronic and communities engineering 2024 passout</h5>
         <div >
+        <img src={Profile} alt="Monish"></img>
           <h3>SKILLS</h3>
           <ul className={ProfileCSS.profileAction}> 
            <div className={ProfileCSS.profileConnect}>JAVA</div>
@@ -31,4 +32,4 @@ function Profile(){
   )
 }
 
-export default Profile
+export default Profil
